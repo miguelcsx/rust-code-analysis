@@ -32,7 +32,7 @@ rust-code-analysis-cli -m -p /path/to/your/file/or/directory -O json -o /path/to
 ```
 
 - `-O`: Specifies the output format (e.g., json, toml, yaml, cbor).
-- `-o`: Path to save the output file. If not specified, the result will be printed in the shell.
+- `-o`: Path to save the output file. The filename of the output file is the same as the input file plus the extension associated to the format. If not specified, the result will be printed in the shell. 
 
 ## Pretty Print
 
