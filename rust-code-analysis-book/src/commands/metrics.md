@@ -10,7 +10,7 @@ To compute and display metrics for a given file or directory, run:
 rust-code-analysis-cli -m -p /path/to/your/file/or/directory
 ```
 
-- `-p`: Path to the file or directory to analyze. If a directory is passed, metrics will be computed for all supported files within.
+- `-p`: Path to the file or directory to analyze. If a directory is provided, metrics will be computed for all supported files it contains.
 
 ## Exporting Metrics
 
