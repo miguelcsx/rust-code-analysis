@@ -21,7 +21,7 @@ rust-code-analysis-cli -m -p /path/to/your/file/or/directory
 - TOML
 - YAML
 
-Both `Json` and `Toml` can be exported as pretty-printed.
+Both `JSON` and `TOML` can be exported as pretty-printed.
 
 ### Export Command
 
