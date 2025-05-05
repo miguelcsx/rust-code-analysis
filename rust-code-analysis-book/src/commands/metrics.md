@@ -1,6 +1,6 @@
 # Metrics
 
-Metrics can be displayed or exported in various formats using the **rust-code-analysis-cli**.
+Metrics can be displayed or exported in various formats using **rust-code-analysis-cli**.
 
 ## Display Metrics
 
