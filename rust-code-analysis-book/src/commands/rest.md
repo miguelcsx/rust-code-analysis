@@ -140,7 +140,7 @@ POST http://127.0.0.1:8080/metrics
 - `id`: Unique identifier for the request.
 - `file_name`: The filename of the source code file.
 - `code`: The source code to analyze.
-- `unit`: A boolean value. true to compute only top-level metrics, false for detailed metrics across all units (functions, classes, etc.).
+- `unit`: A boolean value. `true` to compute only top-level metrics, `false` for detailed metrics across all units (functions, classes, etc.).
 
 **Response:**
 
