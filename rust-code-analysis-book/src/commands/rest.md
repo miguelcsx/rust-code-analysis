@@ -1,6 +1,6 @@
 # Rest API
 
-**rust-code-analysis-web** is a web server that allows users to analyze source code through a REST API. It provides several endpoints to extract information such as removing comments, retrieving function spans, and computing various metrics. This service is useful for anyone looking to perform code analysis over HTTP.
+**rust-code-analysis-web** is a web server that allows users to analyze source code through a REST API. This service is useful for anyone looking to perform code analysis over HTTP.
 
 The server can be run on any host and port, and supports the following main functionalities:
 
