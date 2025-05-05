@@ -14,7 +14,7 @@ rust-code-analysis-cli -m -p /path/to/your/file/or/directory
 
 ## Exporting Metrics
 
-The **rust-code-analysis-cli** supports multiple output formats for exporting metrics, including:
+**rust-code-analysis-cli** supports multiple output formats for exporting metrics, including:
 
 - CBOR
 - JSON
