@@ -2,7 +2,7 @@
 name = "rust-code-analysis"
 version = "0.0.25"
 authors = ["Calixte Denizet <cdenizet@mozilla.com>"]
-edition = "2021"
+edition = "2024"
 repository = "https://github.com/mozilla/rust-code-analysis"
 documentation = "https://docs.rs/rust-code-analysis/"
 readme = "README.md"
@@ -18,23 +18,23 @@ num = "^0.4"
 num-derive = "^0.4"
 num-format = "^0.4"
 num-traits = "^0.2"
-petgraph = "^0.6"
+petgraph = "^0.8"
 regex = "^1.7"
 serde = { version = "^1.0", features = ["derive"] }
 termcolor = "^1.2"
 walkdir = "^2.3"
 
-tree-sitter = "=0.22.6"
-tree-sitter-java = "=0.21.0"
-tree-sitter-kotlin = "0.3.6"
-tree-sitter-typescript = "=0.21.2"
-tree-sitter-javascript = "=0.21.4"
-tree-sitter-python = "=0.21.0"
-tree-sitter-rust = "=0.21.2"
-tree-sitter-preproc = { path = "./tree-sitter-preproc", version = "=0.20.2" }
-tree-sitter-ccomment = { path = "./tree-sitter-ccomment", version = "=0.20.2" }
-tree-sitter-mozcpp = { path = "./tree-sitter-mozcpp", version = "=0.20.3" }
-tree-sitter-mozjs = { path = "./tree-sitter-mozjs", version = "=0.20.2" }
+tree-sitter = "=0.25.3"
+tree-sitter-java = "=0.23.5"
+tree-sitter-kotlin-ng = "1.1.0"
+tree-sitter-typescript = "=0.23.2"
+tree-sitter-javascript = "=0.23.1"
+tree-sitter-python = "=0.23.6"
+tree-sitter-rust = "=0.23.2"
+tree-sitter-preproc = { path = "./tree-sitter-preproc", version = "=0.20.3" }
+tree-sitter-ccomment = { path = "./tree-sitter-ccomment", version = "=0.20.3" }
+tree-sitter-mozcpp = { path = "./tree-sitter-mozcpp", version = "=0.20.4" }
+tree-sitter-mozjs = { path = "./tree-sitter-mozjs", version = "=0.20.3" }
 
 [dev-dependencies]
 insta = { version = "1.29.0", features = ["yaml", "json", "redactions"] }
