@@ -1,5 +1,5 @@
-use serde::ser::{SerializeStruct, Serializer};
 use serde::Serialize;
+use serde::ser::{SerializeStruct, Serializer};
 use std::fmt;
 
 use crate::checker::Checker;
@@ -187,7 +187,7 @@ impl Cyclomatic for RustCode {
         use Rust::*;
 
         match node.kind_id().into() {
-            If | For | While | Loop | MatchArm | MatchArm2 | QMARK | AMPAMP | PIPEPIPE => {
+            If | For | While | Loop | MatchArm | MatchArm2 | TryExpression | AMPAMP | PIPEPIPE => {
                 stats.cyclomatic += 1.;
             }
             _ => {}
